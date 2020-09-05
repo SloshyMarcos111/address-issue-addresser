@@ -11,5 +11,5 @@ for address in f:
 
 for list in fixed:
     for string in list:
-        print string
+        print (string)
 
