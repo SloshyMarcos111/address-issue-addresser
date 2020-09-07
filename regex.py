@@ -1,5 +1,21 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+
+
+# right now the code just looks at the numbers (need to add the kanji number recognition) and grabs them, puts them
+# into a list, and then recombines the address
+# this way, we don't have to worry about the original format of the address, because it will always contain kanji or
+# arabic numbers (?)
+# things to think about/add:
+# - number kanji recognition
+# - error handling
+# - missing data handling
+# - prompt user for formatting options (i.e. "Which format do you want?: " -> user input)
+
+"""
+Program that reads addresses line by line from a csv file.
+It then parses the addresses and standardizes the format throughout.
+"""
 import re
 
 
